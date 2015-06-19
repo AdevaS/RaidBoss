@@ -38,10 +38,11 @@
       <!-- Default to the left -->
       <strong>Copyright &copy; 2015 <a href="#"><%= t "company" %></a>.</strong> All rights reserved.
       <div class="pull-right">
-        <select class="language" name="">
-          <option value="en">English</option>
-          <option value="pt">Português</option>
-        </select>
+        <p>
+        <%= link_to_unless I18n.locale == :en, "English", locale: :en %>
+        |
+        <%= link_to_unless I18n.locale == :pt, "Português", locale: :pt %>
+        </p>
       </div>
     </footer>
   </div>
