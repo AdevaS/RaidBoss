@@ -20,5 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 pt:
-  hello: "Olá Mundo"
-  company: "AdevaS TI pt-BR"
+  home:
+      rights: "Todos direitos reservados."
+      signin: "Fazer Login"
+      signup: "Cadastre-se"
+      language: "Português"
+      greetings: "Deixe a parte chata conosco e divirta-se!"

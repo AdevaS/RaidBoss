@@ -19,3 +19,23 @@
  *= require_tree .
  *= require_self
  */
+
+.home-image {
+  background-image: url("home/home_callendar_unfocused.png");
+  width: 1920px;
+  height: 500px;
+}
+
+.greetings {
+  margin-top: 80px;
+  font-size: 55px;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subgreetings {
+
+}

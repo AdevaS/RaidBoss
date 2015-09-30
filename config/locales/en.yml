@@ -20,5 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
-  company: "AdevaS TI"
+  home:
+      rights: "All rights reserved."
+      signin: "Sign In"
+      signup: "Sign Up"
+      language: "English"
+      greetings: "Let the boring part with us and have fun!"
