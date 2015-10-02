@@ -23,10 +23,10 @@
         <div class="navbar-custom-menu" style="margin-right: 230px">
           <ul class="nav navbar-nav">
             <li>
-              <a href=""><%= t "home.signup" %></a>
+              <a href="new_user_registration_path"><%= t "home.signup" %></a>
             </li>
             <li>
-              <a href=""><%= t "home.signin" %></a>
+              <a href="new_user_session_path"><%= t "home.signin" %></a>
             </li>
           </ul>
         </div>
@@ -37,7 +37,13 @@
       <!--   <%= image_tag "home/home_callendar.jpg", :alt => "home_image" %>-->
         <div class="row">
           <div class="col-md-3"></div>
-          <div class="greetings col-md-6"> <%= t "home.greetings" %></div>
+          <div class="col-md-6">
+            <div class="greetings"><%= t "home.greetings" %></div>
+            <hr class="separator">
+            <div class="subgreetings"><%= t "home.subgreetings" %></div>
+            <br />
+            <button class="btn btn-primary btn-lg"><%= t "home.getstarted" %></button>
+          </div>
           <div class="col-md-3"></div>
         </div>
       </div>

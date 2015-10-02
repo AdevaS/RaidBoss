@@ -30,12 +30,22 @@
   margin-top: 80px;
   font-size: 55px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #337AB7;
   font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
-.subgreetings {
+.separator {
+  max-width: 100px;
+  border-color: #FFFFFF;
+  border-width: 3px;
+}
 
+.subgreetings {
+  font-size: 18px;
+  font-weight: 300;
+  color: #337AB7;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
